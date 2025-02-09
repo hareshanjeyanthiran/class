@@ -1,5 +1,8 @@
 body {
     background-image: url("https://img.freepik.com/free-vector/vibrant-fluid-gradient-background-with-curvy-shapes_1017-32108.jpg");
+    background-attachment: fixed;
+    background-size: 1500px;
+    background-repeat: no-repeat;
 }
 
 
