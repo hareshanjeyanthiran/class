@@ -52,7 +52,8 @@ background-size: auto;
 
 .planet{
     color: white;
-    
+    box-shadow: 5px salmon;
+    box-sizing: border-box red 100px;
 }
 
 .text{
@@ -63,7 +64,5 @@ background-size: auto;
 
 
 .describe{
-   display: flex;
-   font-size: 15px;
-   gap: 5px;
+   font-size: 25px;
 }
