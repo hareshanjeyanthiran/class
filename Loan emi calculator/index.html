@@ -50,6 +50,35 @@ body{
     box-shadow: 2px 2px 4px goldenrod;
     border: 5px solid yellowgreen;
 }
+
+#submit{
+    color: red;
+    background-color: aquamarine;
+    font-size: 20px;
+    border: 5px solid rgb(13, 129, 223);
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px black;
+}
+
+#submit:hover{
+      color: azure;
+      background-color: blue;
+      border: 5px solid rgb(189, 12, 192);
+      box-shadow: 2px 2px 4px goldenrod;
+}
+
+.container{
+    background-color: rebeccapurple;
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 10px solid yellow;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px black;
+}
 </style>
 </head>
 <body>
@@ -59,8 +88,8 @@ body{
 <input type="text" placeholder="Enter your name" id="name"><br><br>
 <input type="password" placeholder="Enter your password" id="pass"><br><br>
 <button id="submit" onclick="login()">Log In</button>
-</div>
-<!-- <div id="container" class="container">
+</div><br>
+<div id="container" class="container">
 <h2>Get started with PayPlan pro</h2>
 <label>Loan amount:</label><br>
 <input type="number" placeholder="Enter Loan amount" id="amount"><br>
@@ -69,7 +98,7 @@ body{
 <label>Enter loan Tenure:</label><br>
 <input type="number" placeholder="Enter Annual Intrerast Rate" id="Time"><br><br>
 <button id="emibutton" onclick="CalcEMI()">Calculate EMI</button>
-</div> -->
+</div>
 <script>
 </script>   
 </body>
